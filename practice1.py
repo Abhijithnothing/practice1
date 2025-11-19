@@ -12,8 +12,8 @@ else:
     print(f"No input so  deflaut values are taken as weight:{weight} height:{height}") 
         
 
-weight=float(weight)
-height=float(height)/100
+weight=float(weight)/100
+height=float(height)
 BMI=weight/(height)*(height)
 print("The weight is :",weight)
 print("The height is :",height)
