@@ -14,7 +14,7 @@ else:
 
 weight=float(weight)
 height=float(height)/100
-BMI=weight/(height)(height)
+BMI=weight/(height)*(height)
 print("The weight is :",weight)
 print("The height is :",height)
 print("The BMI is :",BMI)
